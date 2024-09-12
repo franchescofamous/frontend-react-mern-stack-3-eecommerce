@@ -1,0 +1,55 @@
+.barner {
+  height: 75vh;
+  width: 100%;
+  background-color: magenta;
+  background-image: url("../asset/clothe.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  padding: 0;
+  margin: 0;
+  font-size: 2rem;
+
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: rgba(159, 153, 234, 0.5);
+  height: 20vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 14px;
+}
+.shopname {
+  color: yellow;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.description {
+  text-align: center;
+}
+
+.category {
+  height: 45vh;
+  width: 100%;
+
+  margin-bottom: 3vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6vh;
+}
+
+.categoryimg {
+  height: 80%;
+  width: 25%;
+  background-color: red;
+}
+.categorydesc {
+  height: 80%;
+  width: 40%;
+  background-color: aqua;
+}

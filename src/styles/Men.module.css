@@ -1,0 +1,29 @@
+.barner {
+  height: 50vh;
+  width: 100%;
+  background-color: brown;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 20vh;
+  background-color: magenta;
+}
+
+.title h2 {
+  margin: 0;
+}
+
+.outfitlist {
+  padding: 5vh;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5vh;
+  justify-content: center;
+  align-items: center;
+}

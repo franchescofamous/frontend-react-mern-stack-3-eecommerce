@@ -1,0 +1,39 @@
+.nav {
+  height: 10vh;
+  width: 100%;
+  background-color: yellow;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo {
+  height: 90%;
+  width: 12%;
+  background-color: red;
+}
+.research {
+  height: 90%;
+  width: 30%;
+  background-color: blue;
+}
+.menu {
+  height: 90%;
+  width: 40%;
+  background-color: gray;
+}
+
+ul {
+  list-style-type: none;
+  background-color: brown;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+
+.menu li a {
+  color: whitesmoke;
+  text-decoration: none;
+}
